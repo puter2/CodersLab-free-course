@@ -1,0 +1,54 @@
+body {
+  color: rgb(52, 58, 64);
+  font-size: 15px;
+  font-family: sans-serif;
+  background-color: rgb(245, 245, 245);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 960px;
+}
+
+.header {
+  background-color: rgb(0, 163, 225);
+  /* Dodaj tutaj odpowiednie właściwości */
+}
+
+/* Stwórz selektor .header-profile-img i dodaj odpowiednie właściwości */
+
+.header-profile {
+  color: rgb(255, 255, 255);
+  line-height: 1.4;
+}
+
+.header-profile h1 {
+  letter-spacing: 1.5px;
+  /* Dodaj wyzerowanie marginesów */
+}
+
+.header-profile div {
+  letter-spacing: 1px;
+}
+
+.info {
+  background-color: rgb(255, 255, 255);
+}
+
+.info-headline span {
+  color: rgb(0, 163, 225);
+}
+
+.info-contact-btn {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: rgb(0, 163, 225);
+}
+
+.info-contact-social {
+  background-color: rgb(245, 245, 245);
+}

@@ -1,0 +1,36 @@
+body {
+  color: rgb(52, 58, 64);
+  font-size: 15px;
+  font-family: sans-serif;
+  /* Krok 1: Dodaj background-color */
+}
+
+/* Krok 2: Stwórz selektor .header i dodaj odpowiedni background-color */
+
+.header-profile {
+  color: rgb(255, 255, 255);
+  line-height: 1.4;
+}
+
+.header-profile h1 {
+  letter-spacing: 1.5px;
+}
+
+.header-profile div {
+  letter-spacing: 1px;
+}
+
+/* Krok 3: Stwórz selektor .info i dodaj odpowiedni background-color */
+
+.info-headline span {
+  color: rgb(0, 163, 225);
+}
+
+.info-contact-btn {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-decoration: none;
+  /* Krok 4: Dodaj background-color */
+}
+
+/* Krok 5: Stwórz selektor .info-contact-social i dodaj odpowiedni background-color */

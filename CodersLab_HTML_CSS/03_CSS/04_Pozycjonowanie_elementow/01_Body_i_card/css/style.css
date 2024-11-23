@@ -1,0 +1,46 @@
+body {
+  color: rgb(52, 58, 64);
+  font-size: 15px;
+  font-family: sans-serif;
+  background-color: rgb(245, 245, 245);
+  /* Wyzerowanie marginesów */
+  /* Centrujący flexbox */
+}
+
+/* Stwórz selektor .card i nastaw mu odpowiednią szerokość */
+
+.header {
+  background-color: rgb(0, 163, 225);
+}
+
+.header-profile {
+  color: rgb(255, 255, 255);
+  line-height: 1.4;
+}
+
+.header-profile h1 {
+  letter-spacing: 1.5px;
+}
+
+.header-profile div {
+  letter-spacing: 1px;
+}
+
+.info {
+  background-color: rgb(255, 255, 255);
+}
+
+.info-headline span {
+  color: rgb(0, 163, 225);
+}
+
+.info-contact-btn {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: rgb(0, 163, 225);
+}
+
+.info-contact-social {
+  background-color: rgb(245, 245, 245);
+}
