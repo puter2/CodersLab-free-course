@@ -1,4 +1,14 @@
 <p> - paragraf
 <h1> - <h6> - header
 <!DOCTYPE hmtl> - which language we're using
-<a> - link?
+<a> - odnośnik
+<strong> - taki bold
+<img> - image, uwaga, samodomykający
+
+znaczniki blokowe:
+<div> - division zcentrowanie?
+<header> - nagłówek
+<section> - sekcja
+
+nie wszystkie containery cos robią
+te co nic nie robią: <nav>, <section>, <header>, <div>
