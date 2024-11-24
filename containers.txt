@@ -1,0 +1,4 @@
+<p> - paragraf
+<h1> - <h6> - header
+<!DOCTYPE hmtl> - which language we're using
+<a> - link?
