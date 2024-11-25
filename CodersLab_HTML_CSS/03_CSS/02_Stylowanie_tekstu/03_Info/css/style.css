@@ -16,3 +16,13 @@ body {
 .header-profile div {
   letter-spacing: 1px;
 }
+
+.info-headline span{
+  color: rgb(0, 163, 225);
+}
+
+.info-contact-btn{
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}

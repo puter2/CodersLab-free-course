@@ -3,3 +3,16 @@ body {
   font-size: 15px;
   font-family: sans-serif;
 }
+
+.header-profile {
+  color: white;
+  line-height: 1.4;
+}
+
+.header-profile h1 {
+  letter-spacing: 1.5px;
+}
+
+.header-profile div {
+  letter-spacing: 1px;
+}
