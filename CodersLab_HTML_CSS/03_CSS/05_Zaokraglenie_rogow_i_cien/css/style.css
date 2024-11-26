@@ -17,6 +17,7 @@ body {
 .card {
   width: 960px;
   /* Dodaj odpowiednie właściwości */
+  box-shadow: 0px 5px 20px 0px rgba(52, 58, 64, 0.06);
 }
 
 .header {
@@ -29,6 +30,8 @@ body {
   padding-right: 35px;
   padding-left: 35px;
   /* Dodaj odpowiednie właściwości */
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
 .header-profile-img {
@@ -57,6 +60,8 @@ body {
   align-items: center;
   padding: 35px;
   /* Dodaj odpowiednie właściwości */
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 .info-picture {
@@ -99,6 +104,7 @@ body {
   padding-right: 15px;
   padding-left: 15px;
   /* Dodaj odpowiednie właściwości */
+  border-radius: 5px;
 }
 
 .info-contact-btn img {
@@ -115,6 +121,7 @@ body {
   height: 30px;
   margin-left: 8px;
   /* Dodaj odpowiednie właściwości */
+  border-radius: 50%;
 }
 
 .info-contact-social img {

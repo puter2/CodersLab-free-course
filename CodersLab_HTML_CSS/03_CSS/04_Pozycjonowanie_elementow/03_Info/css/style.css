@@ -47,19 +47,35 @@ body {
 .info {
   background-color: rgb(255, 255, 255);
   /* Dodaj odpowiednie właściwości */
+  display: flex;
+  align-items: center;
+  padding: 35px;
 }
 
 /* Stwórz selektor .info-picture i nadaj odpowiednie właściwości */
+.info-picture {
+  width: 50%;
+  margin-right: 35px;
+}
 
 /* Stwórz selektor .info-content i nadaj odpowiednie właściwości */
+.info-content {
+  width: 50%;
+}
 
 /* Stwórz selektor .info h2 i nadaj odpowiednie właściwości */
+.info h2{
+  margin: 0;
+}
 
 .info-headline span {
   color: rgb(0, 163, 225);
 }
 
 /* Stwórz selektor .info-signature i nadaj odpowiednie właściwości */
+.info-signature {
+  width: 130px;
+}
 
 .info-contact-btn {
   color: rgb(255, 255, 255);

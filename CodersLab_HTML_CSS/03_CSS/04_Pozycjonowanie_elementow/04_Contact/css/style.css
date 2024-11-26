@@ -1,3 +1,8 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   color: rgb(52, 58, 64);
   font-size: 15px;
@@ -73,6 +78,11 @@ body {
 }
 
 /* Stwórz selektor .info-contact i nadaj mu odpowiednie właściwości */
+.info-contact {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
 
 .info-contact-btn {
   color: rgb(255, 255, 255);
@@ -81,14 +91,34 @@ body {
   background-color: rgb(0, 163, 225);
 
   /* Dodaj odpowiednie właściwości */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
 }
 
 /* Stwórz selektor .info-contact-btn img i nadaj mu odpowiednie właściwości */
+.info-contact-btn img{
+  width: 22px;
+  margin-right: 8px;
+}
 
 .info-contact-social {
   background-color: rgb(245, 245, 245);
-
   /* Dodaj odpowiednie właściwości */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-left: 8px;
 }
 
 /* Stwórz selektor .info-contact-social img i nadaj mu odpowiednie właściwości */
+.info-contact-social img {
+  height: 13px;
+}
